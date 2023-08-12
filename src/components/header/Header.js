@@ -5,7 +5,7 @@ import styles from './Header.module.css'; // You can define your CSS modules her
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>My App</div>
+      <div className={styles.logo}>Dev Weber</div>
       <nav className={styles.nav}>
         <Link to="/">Home</Link>
         <Link to="/services">Services</Link>
