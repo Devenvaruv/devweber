@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 import Home from './pages/home/Home';
 import Services from './pages/services/Services';
 import Portfolio from './pages/portfolio/Portfolio';
@@ -20,6 +21,7 @@ export default function App() {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
+    <Footer />
   </BrowserRouter>
   )
 }
