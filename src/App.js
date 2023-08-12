@@ -1,17 +1,26 @@
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './components/header/Header';
+import Home from './pages/home/Home';
+import Services from './pages/services/Services';
+import Portfolio from './pages/portfolio/Portfolio';
+import About from './pages/about/About';
+import Contact from './pages/contact/Contact';
+
 import './App.css';
-import Header from './pages/header/Header.js';
 
-
-
-
-function App() {
+export default function App() {
   return (
-    <div>
-      <Header />
-      <p>hello again</p>
-
-    </div>
+    <BrowserRouter>
+    <Header />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+  </BrowserRouter>
   )
 }
 
-export default App;
