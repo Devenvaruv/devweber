@@ -12,7 +12,7 @@ function Contact() {
           hendrerit dolor eros enim, nisi ligula ornare. Hendrerit parturient
           habitant pharetra rutrum gravida porttitor eros feugiat. Mollis elit
           sodales taciti duis praesent id. Consequat urna vitae morbi nunc
-          congue.
+          congu.
         </p>
       </div>
 
