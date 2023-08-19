@@ -1,5 +1,5 @@
 import React from 'react';
-import './ContactForm.module.css'
+import styles from './ContactForm.module.css';
 
 const ContactForm = () => {
   const [formStatus, setFormStatus] = React.useState('Send');
@@ -18,33 +18,33 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contact-form-container">
+    <div className={styles.container}>
       <form onSubmit={onSubmit}>
-        <div className="form-group">
-          <label className="form-label" htmlFor="name">
+        <div className={styles['form-group']}>
+          <label className={styles.label} htmlFor="name">
             Name
           </label>
-          <input className="form-input" type="text" id="name" required />
+          <input className={styles.input} type="text" id="name" required />
         </div>
-        <div className="form-group">
-          <label className="form-label" htmlFor="email">
+        <div className={styles['form-group']}>
+          <label className={styles.label} htmlFor="email">
             Email
           </label>
-          <input className="form-input" type="email" id="email" required />
+          <input className={styles.input} type="email" id="email" required />
         </div>
-        <div className="form-group">
-          <label className="form-label" htmlFor="subject">
+        <div className={styles['form-group']}>
+          <label className={styles.label} htmlFor="subject">
             Subject
           </label>
-          <input className="form-input" id="subject" />
+          <input className={styles.input} id="subject" />
         </div>
-        <div className="form-group">
-          <label className="form-label" htmlFor="message">
+        <div className={styles['form-group']}>
+          <label className={styles.label} htmlFor="message">
             Message (optional)
           </label>
-          <textarea className="form-input" id="message" />
+          <textarea className={styles.input} id="message" />
         </div>
-        <button className="form-button" type="submit" disabled={formStatus === 'Submitting...'}>
+        <button className={styles.button} type="submit" disabled={formStatus === 'Submitting...'}>
           {formStatus}
         </button>
       </form>

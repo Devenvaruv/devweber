@@ -1,64 +1,61 @@
-/* Basic styling for the container */
-.contact-form-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 2px solid #f39c12;
-    border-radius: 10px;
-    background-color: #f7f7f7;
+/* Apply CSS Reset or Normalize.css if needed */
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #c0392b;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Apply these styles for screens with a width of 768px and below */
+  .container {
+    padding: 10px;
+    max-width: 100%;
   }
   
-  /* Styling for form headings */
-  h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #e74c3c;
-  }
-  
-  /* Styling for form labels */
-  .form-label {
-    font-weight: bold;
+  .input {
     margin-bottom: 8px;
-    color: #3498db;
   }
   
-  /* Styling for form input fields and textarea */
-  .form-control {
+  .button {
     width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid #95a5a6;
-    border-radius: 5px;
-    background-color: #ecf0f1;
-    color: #34495e;
   }
-  
-  /* Styling for form submit button */
-  .btn {
-    background-color: #e74c3c;
-    color: #fff;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  /* Additional styling for form submit button on hover */
-  .btn:hover {
-    background-color: #c0392b;
-  }
-  
-  /* Styling for the "Submitting..." state */
-  .btn:disabled {
-    background-color: #95a5a6;
-    cursor: not-allowed;
-  }
-  
-  /* Styling for success or error messages */
-  .form-message {
-    font-size: 18px;
-    margin-top: 10px;
-    color: #27ae60;
-  }
-  
+}

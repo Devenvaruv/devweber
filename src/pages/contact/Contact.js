@@ -3,8 +3,8 @@ import ContactForm from '../../components/contactForm/ContactForm';
 
 function Contact() {
   return (
-    <div className='Main-Container'>
-      <div className='Sub-Container'>
+    <div className="Main-Container">
+      <div className="Sub-Container">
         <h1>Contact Us</h1>
         <p>
           Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa
@@ -15,8 +15,7 @@ function Contact() {
           congu.
         </p>
       </div>
-
-      <ContactForm />
+      <div className="contact-form"> <ContactForm /></div>
     </div>
   );
 }
