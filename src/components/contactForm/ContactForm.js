@@ -18,38 +18,39 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container">
+    <div className="contact-form-container">
       <form onSubmit={onSubmit}>
-        <div className="">
+        <div className="form-group">
           <label className="form-label" htmlFor="name">
-            Name  (required)
+            Name
           </label>
-          <input className="form-control" type="text" id="name" required />
+          <input className="form-input" type="text" id="name" required />
         </div>
-        <div className="mb-3">
+        <div className="form-group">
           <label className="form-label" htmlFor="email">
-            Email (required)
+            Email
           </label>
-          <input className="form-control" type="email" id="email" required />
+          <input className="form-input" type="email" id="email" required />
         </div>
-        <div className="mb-3">
+        <div className="form-group">
           <label className="form-label" htmlFor="subject">
             Subject
           </label>
-          <input className="form-control" id="subject"/>
+          <input className="form-input" id="subject" />
         </div>
-        <div className="mb-3">
+        <div className="form-group">
           <label className="form-label" htmlFor="message">
             Message (optional)
           </label>
-          <textarea className="form-control" id="message"/>
+          <textarea className="form-input" id="message" />
         </div>
-        <button className="btn btn-danger" type="submit" disabled={formStatus === 'Submitting...'}>
+        <button className="form-button" type="submit" disabled={formStatus === 'Submitting...'}>
           {formStatus}
         </button>
       </form>
     </div>
-  );
+);
+
 };
 
 export default ContactForm;

@@ -1,3 +1,27 @@
+/* Apply CSS Reset or Normalize.css if needed */
+
 .Main-Container {
     display: flex;
-}
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .Sub-Container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .Sub-Container h1 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .Sub-Container p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
