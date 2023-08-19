@@ -1,0 +1,36 @@
+/* Apply CSS Reset or Normalize.css if needed */
+
+.about-container {
+    display: flex;
+    flex-direction: column; /* Stack content on small screens */
+    padding: 20px;
+  }
+  
+  .about-content,
+  .about-image {
+    padding: 10px; /* Add spacing between content and edges */
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (min-width: 768px) {
+    /* Apply these styles for screens with a width of 768px and above */
+    .about-container {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .about-content {
+      flex: 1;
+      padding-right: 20px;
+    }
+  
+    .about-image {
+      flex: 1;
+      padding-left: 20px;
+    }
+  }
+  
