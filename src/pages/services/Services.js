@@ -46,10 +46,30 @@ function Services() {
       <div>
         <div>
           <h4>The Results</h4>
-          <div className="imager"><img className="imager" data-stretch="true" data-component-key="idv1.i.6442ef4942b73958769789aa" data-src="https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg" data-image="https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg" data-image-dimensions="1838x1379" data-image-focal-point="0.5,0.5" alt="" data-load="false" src="https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg" srcset="https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=2500w 2500w" loading="lazy" decoding="async" data-loader="sqs"/></div>
+          <div className="imager">
+            <img
+              className="imager"
+              data-stretch="true"
+              data-component-key="idv1.i.6442ef4942b73958769789aa"
+              data-src="https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg"
+              data-image="https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg"
+              data-image-dimensions="1838x1379"
+              data-image-focal-point="0.5,0.5"
+              alt=""
+              data-load="false"
+              src="https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg"
+              srcset="https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=2500w 2500w"
+              loading="lazy"
+              decoding="async"
+              data-loader="sqs"
+            />
+          </div>
           <div>
             <div>
-              <h3>“Whatever it is, the way you tell your story online can make all the difference.”</h3>
+              <h3>
+                “Whatever it is, the way you tell your story online can make all
+                the difference.”
+              </h3>
               <p></p>
             </div>
           </div>
