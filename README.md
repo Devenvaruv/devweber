@@ -1,2 +1,3 @@
 # added skeleton for contact page
-## about page will get added next
+## About page will get added next done
+a bit busy with college, might take some time
