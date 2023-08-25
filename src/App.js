@@ -7,6 +7,7 @@ import Services from './pages/services/Services';
 import Portfolio from './pages/portfolio/Portfolio';
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
+import Temp from './pages/temp/Temp';
 
 import './App.css';
 
@@ -17,6 +18,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/services" element={<Services />} />
+      <Route path="/temp" element={<Temp />} />
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
