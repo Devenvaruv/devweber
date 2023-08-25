@@ -1,17 +1,13 @@
-import Dev from "../../assets/images/Dev.jpg";
 import './Temp.css'
+import Dev from "../../assets/images/Dev.jpg";
 
 function Temp() {
-    return (
-        <div className="image-container">
-        <img
-          src={Dev}
-          alt="A beautiful landscape"
-          className="centered-image"
-        />
-      </div>
-    );
-  }
+  return (
+    <div className="temp-container">
+      <img src={Dev} className="centered-image" alt="A beautiful landscape" />
+    </div>
+  );
+}
   
   export default Temp;
   

@@ -58,7 +58,6 @@ function Services() {
               alt=""
               data-load="false"
               src="https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg"
-              srcset="https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/6442ef4842b7395876978966/1682108233244-HEK514A3EFVWYLAH9PNP/Sleek+Objects+2.jpg?format=2500w 2500w"
               loading="lazy"
               decoding="async"
               data-loader="sqs"

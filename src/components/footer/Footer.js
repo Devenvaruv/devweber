@@ -7,13 +7,13 @@ const Footer = () => {
       <div className={styles.container}>
         <p>&copy; {new Date().getFullYear()} My App. All rights reserved.</p>
         <div className={styles.socialIcons}>
-          <a href="#" className={styles.icon}>
+          <a href="devweber.com" className={styles.icon}>
             <i className="fab fa-facebook"></i>
           </a>
-          <a href="#" className={styles.icon}>
+          <a href="devweber.com" className={styles.icon}>
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="#" className={styles.icon}>
+          <a href="devweber.com" className={styles.icon}>
             <i className="fab fa-instagram"></i>
           </a>
         </div>
